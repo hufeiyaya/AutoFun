@@ -1,0 +1,3 @@
+af.openUrl("https://www.baidu.com/")
+
+af.searchValue("关键科技")

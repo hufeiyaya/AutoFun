@@ -1,0 +1,4 @@
+# Project exclude paths
+/keyware-autofun-dao/target/
+/keyware-autofun-service/target/
+/keyware-autofun-view/target/

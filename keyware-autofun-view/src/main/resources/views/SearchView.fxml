@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="640.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.keyware.autofun.ui.view.SearchViewController">
+    <children>
+        <VBox prefHeight="640.0" prefWidth="800.0" style="-fx-fill-width: 100%;">
+            <children>
+                <TreeTableView prefHeight="1000.0" prefWidth="800.0">
+                    <columns>
+                        <TreeTableColumn prefWidth="75.0" text="C1"/>
+                    </columns>
+                </TreeTableView>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

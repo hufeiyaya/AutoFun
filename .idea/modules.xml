@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AutoFun.iml" filepath="$PROJECT_DIR$/AutoFun.iml" />
+      <module fileurl="file://$PROJECT_DIR$/keyware-autofun-dao/keyware-autofun-dao.iml" filepath="$PROJECT_DIR$/keyware-autofun-dao/keyware-autofun-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/keyware-autofun-service/keyware-autofun-service.iml" filepath="$PROJECT_DIR$/keyware-autofun-service/keyware-autofun-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/keyware-autofun-view/keyware-autofun-view.iml" filepath="$PROJECT_DIR$/keyware-autofun-view/keyware-autofun-view.iml" />
+    </modules>
+  </component>
+</project>

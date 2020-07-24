@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox prefHeight="640.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.keyware.autofun.ui.view.Edit.EditViewController">
+   <children>
+      <VBox prefHeight="640.0" prefWidth="172.0">
+         <children>
+            <TreeView fx:id="tv" prefHeight="643.0"  prefWidth="172.0">
+               <root >
+                   <TreeItem fx:id="item" />
+               </root>
+               <contextMenu>
+                  <ContextMenu fx:id="cmenu">
+                    <items>
+                      <MenuItem mnemonicParsing="false" onAction="#addProject" text="新建项目" />
+                        <MenuItem mnemonicParsing="false" onAction="#importProject" text="导入项目" />
+                    </items>
+                  </ContextMenu>
+               </contextMenu>
+            </TreeView>
+         </children>
+      </VBox>
+      <VBox prefHeight="640.0" prefWidth="628.0">
+         <children>
+            <TextArea fx:id="scriptText" prefHeight="505.0" prefWidth="422.0" />
+            <TextArea fx:id="resultText" editable="false" prefHeight="148.0" prefWidth="628.0" />
+         </children>
+      </VBox>
+   </children>
+</HBox>
